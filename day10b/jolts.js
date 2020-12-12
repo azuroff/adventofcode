@@ -69,7 +69,6 @@ const onFileEnd = () => {
     }
 
     console.log(`Answer: ${answer}`);   
-
 };
 
 rl.on('line', onReadLine).on('close', onFileEnd);
